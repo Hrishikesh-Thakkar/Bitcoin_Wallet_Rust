@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["kesh"]
+
+[dependencies]
+bitcoin="0.11"
+rand="0.3"
+serde="0.6"
+secp256k1={version="0.8",features=["rand"]}
+base58 = "0.1"
